@@ -1,0 +1,3 @@
+docker run -d --name portainer --privileged -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /home/pi/data/portainer:/data portainer/portainer
+
+docker exec => pihole -a -p
